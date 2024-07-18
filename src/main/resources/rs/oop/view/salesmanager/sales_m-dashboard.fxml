@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="440.0" prefWidth="631.0" style="-fx-background-color: #706bb5;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rs.oop.brickfield.controller.supervisor.SupervisorDashboard">
+<AnchorPane prefHeight="440.0" prefWidth="631.0" style="-fx-background-color: #706bb5;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rs.oop.brickfield.controller.salesmanager.SalesManagerDashboard">
    <children>
       <AnchorPane layoutX="14.0" layoutY="81.0" prefHeight="253.0" prefWidth="375.0" style="-fx-background-color: #332e73; -fx-background-radius: 25px;">
          <children>
@@ -91,9 +91,9 @@
                </font>
             </Label>
          </children></AnchorPane>
-      <AnchorPane layoutX="112.0" layoutY="14.0" prefHeight="58.0" prefWidth="375.0" style="-fx-background-color: #332e73; -fx-background-radius: 25px;">
+      <AnchorPane layoutX="58.0" layoutY="14.0" prefHeight="58.0" prefWidth="449.0" style="-fx-background-color: #332e73; -fx-background-radius: 25px;">
          <children>
-            <Label layoutX="37.0" layoutY="13.0" style="-fx-font-weight: bold;" text="Supervisor Dashboard" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <Label layoutX="49.0" layoutY="13.0" style="-fx-font-weight: bold;" text="Sales Manager Dashboard" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="Arial" size="28.0" />
                </font>
@@ -109,7 +109,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button layoutX="536.0" layoutY="22.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="79.0" style="-fx-background-color: tomato; -fx-font-weight: bold; -fx-padding: 8px; -fx-background-radius: 15px; -fx-font-size: 15px;" text="Log Out" textAlignment="CENTER" textFill="#efe9e9" wrapText="true">
+      <Button layoutX="525.0" layoutY="22.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="90.0" style="-fx-background-color: tomato; -fx-font-weight: bold; -fx-padding: 8px; -fx-background-radius: 15px; -fx-font-size: 15px;" text="Log Out" textAlignment="CENTER" textFill="#efe9e9" wrapText="true">
          <font>
             <Font size="16.0" />
          </font>
